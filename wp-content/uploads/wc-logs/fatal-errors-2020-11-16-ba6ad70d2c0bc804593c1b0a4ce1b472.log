@@ -1,0 +1,10 @@
+2020-11-16T16:05:36+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in D:\xampp\htdocs\azamistore\wp-includes\class-wp-hook.php on line 289 and defined in D:\xampp\htdocs\azamistore\wp-content\plugins\elementor\includes\template-library\sources\local.php:1086
+Stack trace:
+#0 D:\xampp\htdocs\azamistore\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(89, Object(stdClass))
+#1 D:\xampp\htdocs\azamistore\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\azamistore\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\azamistore\wp-includes\post.php(4260): do_action('save_post', 89, Object(stdClass), true)
+#4 D:\xampp\htdocs\azamistore\wp-includes\post.php(4354): wp_insert_post(Array, false)
+#5 D:\xampp\htdocs\azamistore\wp-content\plugins\elementor\includes\db.php(228): wp_update_post(Array)
+#6 D:\xampp\htdocs\azamistore di D:\xampp\htdocs\azamistore\wp-content\plugins\elementor\includes\template-library\sources\local.php pada baris 1086
+
